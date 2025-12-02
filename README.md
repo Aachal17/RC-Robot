@@ -1,6 +1,9 @@
 # RC Robot with Autonomous Navigation  
-A multifunctional Arduino-based robot supporting both manual (Bluetooth) control and autonomous obstacle-avoidance operation.  
-The robot features:  
+
+## Project OVerview
+This project implements a versatile four-wheeled robot capable of both remote control via Bluetooth and intelligent autonomous navigation with obstacle avoidance. It utilizes an Arduino microcontroller, the Adafruit Motor Shield, an I2C LCD for status display, and an ultrasonic sensor mounted on a servo for 180-degree environmental scanning.
+
+The code features smooth motor speed transitions (ramping), a dynamic "eye" display on the LCD, and a logic system to prevent the robot from getting stuck in tight spots. The robot features:  
 - L293D Motor Shield (AFMotor library)  
 - HC-05/HC-06 Bluetooth control  
 - Ultrasonic distance measurement  
